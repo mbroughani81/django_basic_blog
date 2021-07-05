@@ -1,4 +1,7 @@
 /venv/
 /django_project/db.sqlite3
 *.pyc
+*.jpeg
+*.jpg
+*.png
 .idea
