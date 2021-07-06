@@ -13,6 +13,8 @@ def home(request):
 
 class PostListView(ListView):
     model = Post
+    template_name = 'blog/home.html'
+    context_object_name = 'posts'
 
 
 def about(request):
